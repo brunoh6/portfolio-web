@@ -1,0 +1,30 @@
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .layout-main {
+    flex-grow: 1;
+    padding: 1.5rem;
+  }
+
+  .animated-bg {
+    background: linear-gradient(-45deg, #242424, #505050, #6c6c6c, #242424);
+    background-size: 800% 800%;
+    animation: backgroundShift 10s ease infinite;
+  }
+  
+  @keyframes backgroundShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
