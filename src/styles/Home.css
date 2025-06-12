@@ -159,20 +159,153 @@
   color: white;
 }
 
-/* .animated-bg {
-  background: linear-gradient(-45deg, #242424, #505050, #6c6c6c, #242424);
-  background-size: 800% 800%;
-  animation: backgroundShift 10s ease infinite;
+/* Large devices: 769px - 992px */
+@media screen and (max-width: 992px) {
+  .home-section {
+    padding: 3rem 1rem 2rem;
+  }
+
+  .profile-img {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .strength-box {
+    position: absolute;
+    width: 20%;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+
+  .box-top-left {
+    top: 17rem;
+    left: 25rem;
+  }
+  .box-top-right {
+    top: 21rem;
+    right: 22rem;
+  }
+  .box-bottom-left {
+    left: 19rem;
+    bottom: 20rem;
+  }
+  .box-bottom-right {
+    right: 21rem;
+    bottom: 25rem;
+  }
+
+  .skills-grid {
+    gap: 1rem;
+    display:flex;
+    flex-wrap:inherit;
+  }
 }
 
-@keyframes backgroundShift {
-  0% {
-    background-position: 0% 50%;
+/* Medium devices: 577px - 768px */
+@media screen and (max-width: 768px) {
+  .profile-img {
+    width: 45rem;
+    height: 45rem;
   }
-  50% {
-    background-position: 100% 50%;
+
+  .about-title {
+    font-size: 2.5rem;
   }
-  100% {
-    background-position: 0% 50%;
+
+  .skills-grid {
+    gap: 1rem;
+    display:flex;
+    flex-wrap:inherit;
   }
-} */
+
+  .strength-box {
+    position: absolute;
+    width: 20%;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+
+  .box-top-left {
+    top: 17rem;
+    left: 25rem;
+  }
+  .box-top-right {
+    top: 21rem;
+    right: 22rem;
+  }
+  .box-bottom-left {
+    left: 22rem;
+    bottom: 20rem;
+  }
+  .box-bottom-right {
+    right: 21rem;
+    bottom: 25rem;
+  }
+}
+
+/* Small devices: 0px - 576px */
+@media screen and (max-width: 576px) {
+  .profile-img {
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .place-title {
+    font-size: 1.3rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .skills-title {
+    font-size: 1.3rem;
+  }
+
+  .strength-box {
+    position: absolute;
+    width: 15%;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+
+  .box-top-left {
+    top: 17rem;
+    left: 24rem;
+  }
+  .box-top-right {
+    top: 21rem;
+    right: 22rem;
+  }
+  .box-bottom-left {
+    left: 22rem;
+    bottom: 53rem;
+  }
+  .box-bottom-right {
+    right: 21rem;
+    bottom: 55rem;
+  }
+
+  .skills-grid {
+    /* font-size: 3em; */
+    gap: 1rem;
+    display:flex;
+    flex-wrap:inherit;
+  }
+
+  .skills-item {
+    gap: 0.5rem;
+    display:contents;
+    flex-direction:row;
+  }
+
+  .skill-icon {
+    width: 36px;
+    height: 36px;
+  }
+}
