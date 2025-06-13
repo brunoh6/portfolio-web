@@ -58,10 +58,15 @@ export default function Home() {
   <p className="info-text">Metasploit, CVE labs, reverse shells, forensics</p>
 </a>
 
-      <div className="strength-box box-bottom-right">
-        <h3 className="strength-title">ICS/SCADA</h3>
-        <p>OT protection, Conpot, Modbus, Suricata</p>
-      </div>
+<a
+  href="https://github.com/brunoh6/proxy-auth"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="strength-box box-bottom-right"
+>
+  <h3 className="strength-title">Proxy Authentication</h3>
+  <p className="info-text">Ubuntu Server, Squid + ACL, advanced networking</p>
+</a>
 
       {/* Bloque de aptitudes / skills */}
       <div className="skills-block">
